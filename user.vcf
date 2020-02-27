@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
+N:McDonald;Rob;;;
+FN: Rob  McDonald 
+ORG:RobMcDonald.NET;
+TITLE:WordPress Web Developer
+EMAIL;type=INTERNET;type=WORK;type=pref:rob@robmcdonald.net
+TEL;type=WORK;type=VOICE:727.490.8252
+item1.ADR;type=WORK;type=pref:;;1 Fusionopolis View\nSandcrawler\, 09-01;;;138577;Singapore
+item1.X-ABADR:sg
+item2.URL;type=pref:robmcdonald.net
+item2.X-ABLabel:_$!<HomePage>!$_
+END:VCARD

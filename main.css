@@ -1,0 +1,304 @@
+/* Universal Setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #595e6f;
+  padding-left: 17rem;
+  padding-right: 17rem;
+}
+
+
+h3 {
+  font-family: Raleway;
+  color: white;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+p {
+  color: white;
+}
+
+ul {
+  color: white;
+}
+
+.webaddress-phone {
+  font-family: Raleway;
+  background-color: #33373b;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.card-title__name {
+  font-family: Raleway;
+  font-size: 5rem;
+  text-transform: capitalize;
+  border-bottom: 3px solid #00ff00;
+  padding-top: 2rem;
+}
+
+.card-title,
+.card-description {
+  display: flex;
+  justify-content: center;
+  background-color: #33373b;
+}
+
+.card-services {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  background-color: #33373b;
+}
+
+.card-services__design,
+.card-services__develop,
+.card-services__maintain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.solution-description {
+  font-family: Raleway;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  background-color: #33373b;
+}
+
+.card-description__name {
+  font-family: Lato;
+  color: white;
+  font-family: Lato;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.card-description-text {
+  font-family: Lato;
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  padding: 2rem 8rem;
+  background-color: #33373b;
+}
+
+.services-listing {
+  font-family: Lato;
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  padding: 1rem auto;
+  background-color: #33373b;
+}
+
+.about-me {
+  background-color: white;
+}
+
+.about-me__header {
+  display: flex;
+  justify-content: center;
+  font-family: Raleway;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.rob-pic {
+  width: 9rem;
+  height: 9rem;
+  padding: .5rem;
+  border-radius: 50%;
+}
+
+.profile-text__text {
+  font-family: Lato;
+  font-size: 1.2rem;
+  color: #33373b;
+}
+
+.hire-me__button {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 1rem;
+}
+
+.hire-me__button:hover {
+  
+}
+
+.hire-me__button-button {
+  font-family: Raleway;
+  font-weight: 600;
+  padding: 1rem 1rem;
+  border: 2px solid black;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hire-me__button-button:hover {
+  background-color: #595e6f;
+  color: white;
+}
+
+.ask-me {
+  font-family: Raleway;
+  display: flex;
+  justify-content: center;
+  font-size: 2.2rem;
+  padding-top: 2rem;
+  background-color: #33373b;
+}
+
+.ask-me__description {
+
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #33373b;
+}
+
+.contact-info__button {
+  width: 45%;
+  font-size: 1.5rem;
+  text-decoration: none!important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #00ff00;
+}
+
+.contact-info__button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  font-family: Raleway;
+  color: black;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  color: white;
+}
+
+.contact-me {
+  font-family: Raleway;
+  font-size: 2rem;
+  font-weight: 400;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #33373b;
+}
+
+.social-media-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #33373b;
+  width: 100%;
+  color: white;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-color: #33373b;
+}
+
+a {
+  color: white;
+}
+
+.github,
+.twitter,
+.facebook {
+  font-size: 3rem;
+  padding: 1.5rem;
+}
+
+.fa-github-alt:hover {
+  color: #00ff00;
+}
+
+.fa-twitter:hover {
+  color: #00ff00;
+}
+
+.fa-facebook-f:hover {
+  color: #00ff00;
+}
+
+.first-name {
+  color: #00ff00;
+  text-transform: uppercase;
+}
+
+.last-name {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.fa-paint-brush:before {
+  content: "\f1fc";
+  color: #00ff00;
+  font-size: 3rem;
+}
+
+.fa-code:before {
+  content: "\f1fc";
+  color: #00ff00;
+  font-size: 3rem;
+}
+
+.fa-cogs:before {
+  content: "\f1fc";
+  color: #00ff00;
+  font-size: 3rem;
+}
+
+
+@media screen and (max-width: 600px) {
+  img.profile-pic {
+    height: 60%;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  img.profile-pic {
+    height: 80%;
+    width: 80%;
+  }
+}
