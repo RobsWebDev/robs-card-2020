@@ -40,8 +40,8 @@
   }
 }
 
-@media screen and (max-width: 450px) {
-  .card-title__name {
+@media screen and (max-width: 480px) {
+  .card-tile {
     font-size: 2em;
   }
 }
