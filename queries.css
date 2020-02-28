@@ -40,8 +40,8 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
   .card-tile {
-    font-size: 2em;
+    font-size: 3em;
   }
 }
