@@ -1,0 +1,20 @@
+/* Media Queries for Site */
+
+@media screen and (max-width: 1300px) {
+  body {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-info__button {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ask-me {
+    font-size: 3rem;
+  }
+}
