@@ -38,10 +38,38 @@
   html {
     font-size: 35%;
   }
+
+  .card-title__name {
+    font-size: 8rem;
+  }
+
+  .card-services {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-services__design,
+  .card-services__develop,
+  .card-services__maintain {
+    margin-bottom: 1.5em;
+  }
+
+  h3 {
+    font-size: 6em;
+  }
+
+  
+
 }
 
-@media screen and (max-width: 400px) {
-  .card-tile {
-    font-size: 5rem;
+@media screen and (max-width: 450px) {
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-pic {
+    display: flex;
+    justify-content: center;
   }
 }
