@@ -39,3 +39,9 @@
     font-size: 35%;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .card-title__name {
+    font-size: 2em;
+  }
+}
