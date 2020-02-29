@@ -34,6 +34,21 @@
   }
 }
 
+@media screen and (max-width: 530px) {
+  .card-title__name {
+    font-size: 7rem;
+  }
+
+  .card-description__name {
+    font-size: 4.5rem;
+  }
+
+  .contact-info__button {
+    width: 60%;
+    font-size: 2.4rem;
+  }
+}
+
 @media screen and (max-width: 500px) {
   html {
     font-size: 35%;
