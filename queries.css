@@ -58,7 +58,15 @@
     font-size: 6em;
   }
 
-  
+  .card-description-text {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 3rem;
+  }
+
+  .ask-me__description {
+    font-size: 4rem;
+  }
 
 }
 
@@ -72,4 +80,9 @@
     display: flex;
     justify-content: center;
   }
+
+  .contact-info__button {
+    width: 75%;
+  }
+
 }
