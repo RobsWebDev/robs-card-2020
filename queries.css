@@ -109,4 +109,19 @@
     font-size: 1.8rem;
   }
 
+  .card-services__design,
+  .card-services__develop,
+  .card-services__maintain {
+    margin-bottom: 1.5em;
+    font-size: 1.3rem;
+  }
+
+  .fa-paint-brush:before,
+  .fa-code:before,
+  .fa-cogs:before {
+    font-size: 6rem;
+    margin-top: 3rem;
+  }
+   
+
 }
