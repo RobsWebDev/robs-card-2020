@@ -97,4 +97,12 @@
     font-size: 2rem;
   }
 
+  .card-title__name {
+    font-size: 7rem;
+  }
+
+  .card-description__name {
+    font-size: 4.5rem;
+  }
+
 }
