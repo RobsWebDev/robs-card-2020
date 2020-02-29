@@ -34,6 +34,45 @@
   }
 }
 
+@media screen and (max-width: 550px) {
+  .card-title__name {
+    font-size: 6.5rem;
+  }
+
+  .card-description__name {
+    font-size: 4rem;
+  }
+
+  .card-description-text {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .ask-me__description {
+    font-size: 2.8rem;
+  }
+
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-pic {
+    display: flex;
+    justify-content: center;
+  }
+
+  .profile-text__text {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .contact-info__button {
+    width: 70%;
+    font-size: 2.4rem;
+  }
+}
+
 @media screen and (max-width: 530px) {
   .card-title__name {
     font-size: 7rem;
