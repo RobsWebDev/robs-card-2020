@@ -94,7 +94,7 @@
   }
 
   .ask-me__description {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
   }
 
   .card-title__name {
@@ -106,7 +106,7 @@
   }
 
   .profile-text__text {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
   }
 
   .card-services__design,
@@ -120,7 +120,8 @@
   .fa-code:before,
   .fa-cogs:before {
     font-size: 6rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
    
 
