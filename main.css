@@ -138,6 +138,7 @@ ul {
 .profile-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding: 1.6rem;
 }
 
@@ -302,4 +303,23 @@ a {
   content: "\f1fc";
   color: #00ff00;
   font-size: 4.8rem;
+}
+
+.qr-code {
+  display: flex;
+  justify-content: center;
+  background-color: #33373b;
+  padding-bottom: 3rem;
+}
+
+.qr-code__green {
+  width: 15rem;
+  height: 15rem;
+}
+
+.about-me__qr-code {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding-bottom: 3rem;
 }
