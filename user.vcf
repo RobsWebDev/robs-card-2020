@@ -1,14 +1,14 @@
 BEGIN:VCARD
 VERSION:3.0
-FN;CHARSET=UTF-8:Rob McDonald
-N;CHARSET=UTF-8:McDonald;Rob;;;
-EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:rob@robmcdonald.net
-PHOTO;ENCODING=b;TYPE=JPEG:IMAGEDATA..
-TEL;TYPE=WORK,VOICE:7274908252
-ADR;CHARSET=UTF-8;TYPE=HOME:;;7610 RIDGE RD;SEMINOLE;FL;33772;United States
-ADR;CHARSET=UTF-8;TYPE=WORK:;;7610 RIDGE RD;;;;
-TITLE;CHARSET=UTF-8:WordPress Developer
-ROLE;CHARSET=UTF-8:Developer
-URL;type=WORK;CHARSET=UTF-8:https://robmcdonald.net
-REV:2020-03-05T16:22:58.099Z
+PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
+N:McDonald;Rob;;;
+FN: Rob  McDonald 
+ORG:RobMcDonald.NET;
+TITLE:WordPress Web Developer
+EMAIL;type=INTERNET;type=WORK;type=pref:rob@robmcdonald.net
+TEL;type=WORK;type=VOICE:727.490.8252
+item1.ADR;type=WORK;type=pref:;;7610 Ridge Rd\nTampa\, Florida;;;33772;United States
+item1.X-ABADR:sg
+item2.URL;type=pref:robmcdonald.net
+item2.X-ABLabel:_$!<HomePage>!$_
 END:VCARD
