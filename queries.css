@@ -205,6 +205,8 @@
   .card-services__design,
   .card-services__develop,
   .card-services__maintain {
+    display: flex;
+    flex-direction: row;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     font-size: 2rem;
